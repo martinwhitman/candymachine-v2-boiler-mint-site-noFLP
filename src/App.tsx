@@ -106,10 +106,10 @@ const App = () => {
         </div>
       </nav>
       <div className="content-wrapper">
+          <h1 className="pb-3">The Half Dead Collection</h1>
           <header className="card" id="link1">
             <div style={{ padding: "0 24px 0 24px 0" }}>
-              <h1 className="pb-3">The Half Dead Collection</h1>
-              <img src="/img/half-dead.gif" alt="Half Dead Rare examples" />
+              <img className="gif" src="/img/half-dead.gif" alt="Half Dead Rare examples" />
             </div>
             <div>
               <ThemeProvider theme={theme}>
