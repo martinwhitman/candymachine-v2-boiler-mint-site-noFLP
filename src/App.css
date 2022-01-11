@@ -152,13 +152,21 @@ nav a:hover {
 }
 
 .nav-social {
-  width: 30px;
-
-  padding: 0 10px 0 10px;
+  width: 1.5em;
+  padding: 0;
 }
 
 .social-icons {
   display: flex;
+}
+
+.social-icons a {
+  background: white;
+  border-radius: 50%;
+  width: 1.2em;
+  height: 1.2em;
+  padding: 16px;
+  margin-left: 1em;
 }
 
 @media only screen and (max-width: 800px) {

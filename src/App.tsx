@@ -65,26 +65,7 @@ const App = () => {
           <li>
             <img className="mobile-nav-logo" src="/img/logo.png" alt="" />
           </li>
-          <li>
-            <a href="/#link1" onClick={toggleMenu}>
-              Link 1
-            </a>
-          </li>
-          <li>
-            <a href="/#link2" onClick={toggleMenu}>
-              Link 2
-            </a>
-          </li>
-          <li>
-            <a href="/#link3" onClick={toggleMenu}>
-              Link 3
-            </a>
-          </li>
-          <li>
-            <a href="/#link4" onClick={toggleMenu}>
-              Link 4
-            </a>
-          </li>
+          
           <li>
             <div className="social-icons">
               <a href="https://twitter.com/HalfDeadDigital" rel="noopener" target="_blank"><img className="nav-social" src="/icons/twitter.svg" alt="" /></a>
