@@ -109,7 +109,7 @@ const App = () => {
           <h1 className="pb-3">The Half Dead Collection</h1>
           <header className="card" id="link1">
             <div style={{ padding: "0 24px 0 24px 0" }}>
-              <img className="gif" src="/img/half-dead.gif" alt="Half Dead Rare examples" />
+              <img className="gif" src="/img/half-dead.gif" alt="Half Dead Rare examples" style="width: 100%; max-width: 220px; margin: 0 auto;" />
             </div>
             <div>
               <ThemeProvider theme={theme}>
