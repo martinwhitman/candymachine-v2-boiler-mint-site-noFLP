@@ -1,9 +1,9 @@
 :root {
-  
-  /* Main Settings  */
-  --main-background-color: rgb(235, 235, 235);
 
-  --text-primary-color: rgb(0, 0, 0);
+  /* Main Settings  */
+  --main-background-color: #000;
+
+  --text-primary-color: #fff;
   --text-secondary-color: rgb(68, 68, 68);
 
   /* Nav Settings  */
@@ -40,9 +40,3 @@
   --minting-button-text-color: white;
 
 }
-
-
-
-
-
-

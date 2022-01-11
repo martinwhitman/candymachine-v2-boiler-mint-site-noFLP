@@ -124,7 +124,7 @@ nav a:hover {
 }
 
 .mobile-nav-logo {
-  height: var(--nav-logo-height);
+  height: var(--mobile-nav-logo-height);
 }
 
 .text-muted {
@@ -347,5 +347,3 @@ header {
     text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
   }
 }
-
-

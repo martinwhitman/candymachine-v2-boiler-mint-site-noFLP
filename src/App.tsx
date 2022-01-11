@@ -87,8 +87,8 @@ const App = () => {
           </li>
           <li>
             <div className="social-icons">
-              <img className="nav-social" src="/icons/twitter.svg" alt="" />
-              <img className="nav-social" src="/icons/discord.svg" alt="" />
+              <a href="https://twitter.com/HalfDeadDigital" rel="noopener" target="_blank"><img className="nav-social" src="/icons/twitter.svg" alt="" /></a>
+              <a href="https://discord.com/invite/KBsVb7ajxw" rel="noopener" target="_blank"><img className="nav-social" src="/icons/discord.svg" alt="" /></a>
             </div>
           </li>
         </ul>
@@ -99,52 +99,33 @@ const App = () => {
       <nav>
         <div className="nav-container">
           <img className="nav-logo" src="/img/logo.png" alt="" />
-          <a className="hide-800" href="/#link1">
-            Link 1
-          </a>
-          <a className="hide-800" href="/#link2">
-            Link 2
-          </a>
-          <a className="hide-800" href="/#link3">
-            Link 3
-          </a>
-          <a className="hide-800" href="/#link4">
-            Link 4
-          </a>
           <div className="social-icons hide-800">
-            <img className="nav-social" src="/icons/twitter.svg" alt="" />
-            <img className="nav-social" src="/icons/discord.svg" alt="" />
+            <a href="https://twitter.com/HalfDeadDigital" rel="noopener" target="_blank"><img className="nav-social" src="/icons/twitter.svg" alt="" /></a>
+            <a href="https://discord.com/invite/KBsVb7ajxw" rel="noopener" target="_blank"><img className="nav-social" src="/icons/discord.svg" alt="" /></a>
           </div>
         </div>
       </nav>
       <div className="content-wrapper">
           <header className="card" id="link1">
             <div style={{ padding: "0 24px 0 24px 0" }}>
-              <h3 className="text-secondary-color">Welcome To</h3>
-              <h1 className="pb-3">The Boiler Plate</h1>
-              <p className="text-secondary-color">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                scelerisque ipsum non est porta mollis. Donec sapien sapien, dictum
-                eget enim sed, hendrerit semper orci. Donec ante magna, consequat at
-                eros ac, eleifend dictum sem. Nam vitae condimentum lorem.
-                Vestibulum molestie dui turpis, tincidunt porta sem congue nec.
-              </p>
+              <h1 className="pb-3">The Half Dead Collection</h1>
+              <img src="/img/half-dead.gif" alt="Half Dead Rare examples" />
             </div>
             <div>
               <ThemeProvider theme={theme}>
                 <ConnectionProvider endpoint={endpoint}>
                   <WalletProvider wallets={wallets} autoConnect>
                     <WalletDialogProvider>
-                      
+
                         <Minter
                           candyMachineId={candyMachineId}
-                          
+
                           connection={connection}
                           startDate={startDateSeed}
                           txTimeout={txTimeout}
                           rpcHost={rpcHost}
                         />
-                      
+
                     </WalletDialogProvider>
                   </WalletProvider>
                 </ConnectionProvider>
@@ -153,59 +134,35 @@ const App = () => {
           </header>
 
           <div id="link2" className="container">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac velit
-            aliquet, semper sapien sed, ornare augue. Phasellus sed velit interdum,
-            sagittis metus quis, facilisis lectus. Cras sollicitudin purus at magna
-            eleifend maximus. Nulla nec nulla in nunc maximus viverra in at mauris.
-            Fusce sodales dolor nisi, et vehicula orci porta id. In placerat nunc
-            sed erat lacinia tincidunt. Interdum et malesuada fames ac ante ipsum
-            primis in faucibus. Vestibulum commodo eget metus vitae tempus. Aliquam
-            pharetra mi at efficitur accumsan. Curabitur venenatis libero a ex
-            porttitor, at auctor turpis hendrerit. Nam commodo, risus non consequat
-            pretium, erat ante auctor purus, a cursus dolor erat at velit. Maecenas
-            dignissim, dolor sed laoreet aliquam, tortor lacus faucibus urna, eget
-            mattis massa sem ac dui. Nam semper hendrerit interdum. Etiam at dictum
-            nisi.
+            <h2 className="pb-3">Origin Story</h2>
+            <p>On top of a hill, in the far corner of town lived an old inventor. His enormous house looked as if it was once alive but now beginning to slowly decompose from the inside out. He had no real friends, or family and the towns people hated him. None of which had a real reason to, in reality they just didn’t understand him . He was unique… One of a kind… a rarity. They thought he was weird and treated him like a complete outsider even though he lived there for over 50 years.</p>
+            <p>One dark night, under a blood red moon he decided to make his own friends and family. However, what he created was not fully alive, but rather half dead. More comparable to a zombie pet - far from a human companion - but the inventor didn’t care! He had friends…. FINALLY! These friends may be the embodiment of pure evil but they love and protect him…. No one else gets the inventor like they do, because they are living extensions of him.</p>
+            <p>Still to this day they follow his lead and do whatever he says…. which sometimes means wreaking havoc on the unsuspecting towns people. </p>
           </div>
 
-          <div id="link3" className="container card">
-            <h1 className="pb-3">Lorem ipsum</h1>
-          </div>
-
-          <div id="link4" className="container faq">
-            <h1 style={{ padding: "0 0 24px 0" }}>FAQ</h1>
+          <div id="link3" className="container">
             <div>
-              <h4>Lorem ipsum?</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
-              </p>
-
-              <hr />
-            </div>
-
-            <div>
-              <h4>Lorem ipsum?</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
-              </p>
-
-              <hr />
-            </div>
-
-            <div>
-              <h4>Lorem ipsum?</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
-              </p>
-
-              <hr />
-            </div>
+              <h2 className="pb-3">Roadmap:</h2>
+              <p>- Intro Teaser Video Release 12.5.21</p>
+              <p>- Full Website Update 12.17.21</p>
+              <p>- 1st Half Dead YouTube episode 1.7.22</p>
+              <p>- Public Mint 1.11.22</p>
+              <p>- 3D Printing Renders airdropped to holders 2.20.22</p>
+              <p>- 666 Winners announced for 3D Printed 1/1&nbsp;</p>
+              <hr/>
+              <h2 className="pb-3">Post Launch</h2>
+              <p>After launch we will continue to keep bringing the “half dead” to life in many different ways.
+              We will be using the royalties to fund, develop and produce more content.
+              We want to be engaged with out community as much as possible, rewarding those who dare enter the Half Dead realm.</p>
+              <hr/>
+              <h2 className="pb-3">Rewards</h2>
+              <p>- 50% of HalfDead YouTube Ad Revenue distributed to community Holders (Monthly)</p>
+              <p>- 3D Printing Render for all holders</p>
+              <p>- HalfDead Metaverse Lounge Access&nbsp;</p>
+              <p>- Claimable celebrity and personalized audio for your Half Dead NFT</p>
+              <hr/>
+              <h2 className="pb-3">Team</h2>
+              <p>- Created by Connecticut Artist &amp; Designer Dan Yatsinko aka Danimal Lector, powered by <a href="nycrypto.co" rel="noopener" target="_blank">Nycrypto</a></p></div>
           </div>
       </div>
     </div>
